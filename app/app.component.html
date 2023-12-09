@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Tracker</title>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo"><a routerLink="home"><img src="../assets/Screenshot 2023-12-06 114250.png" alt="YourLogo"></a></div>
+  <ul class="nav-links">
+    <li><a routerLink="home">Home</a></li>
+    <li><a routerLink="clients">Client-List</a></li>
+    <!-- <li><a routerLink="appointments">Appointments</a></li> -->
+    <li><a routerLink="calendar">Calendar</a></li>
+  </ul>
+</nav>
+
+<div class="content">
+  <router-outlet></router-outlet>
+
+</div>
+
+<footer class="footer">
+  <p>&copy; 2023 Fitness Center. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
